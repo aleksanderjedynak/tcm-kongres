@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tcm-kongres/static/css/main.07c6896e.css",
+    "main.js": "/tcm-kongres/static/js/main.4ef7e754.js",
+    "static/js/787.eac42d72.chunk.js": "/tcm-kongres/static/js/787.eac42d72.chunk.js",
+    "index.html": "/tcm-kongres/index.html",
+    "main.07c6896e.css.map": "/tcm-kongres/static/css/main.07c6896e.css.map",
+    "main.4ef7e754.js.map": "/tcm-kongres/static/js/main.4ef7e754.js.map",
+    "787.eac42d72.chunk.js.map": "/tcm-kongres/static/js/787.eac42d72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07c6896e.css",
+    "static/js/main.4ef7e754.js"
+  ]
+}
