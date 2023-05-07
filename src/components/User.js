@@ -112,6 +112,8 @@ const people = [
 
   // More people...
 ];
+//todo: add twitter and linkedin icons
+//todo twitter and linkedin links
 
 export default function User() {
   return (

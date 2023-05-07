@@ -1,4 +1,5 @@
 export default function Hotel() {
+  //todo add hotel image
   return (
     <div className="overflow-hidden bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
