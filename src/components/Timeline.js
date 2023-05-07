@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const timeline = [
   {
     name: "Wroclaw",
@@ -24,6 +26,7 @@ const timeline = [
     dateTime: "2019-12",
   },
 ];
+//todo: add link to previous events
 
 export default function Timeline() {
   return (
@@ -61,12 +64,18 @@ export default function Timeline() {
                 {item.description}
               </p>
               <div className="mt-4 flex">
-                <a
-                  href="#"
+                <Link
+                  to="/tcm-kongres"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Zobacz <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
+                {/*<a*/}
+                {/*    href="#"*/}
+                {/*    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"*/}
+                {/*>*/}
+                {/*  Zobacz <span aria-hidden="true">&rarr;</span>*/}
+                {/*</a>*/}
               </div>
             </div>
           ))}
