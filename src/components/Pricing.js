@@ -9,7 +9,7 @@ const tiers = [
   {
     name: "Bilet 1 dniowy",
     id: "1",
-    href: "#",
+    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "1 500 PLN" },
     description: "Bilet wstepu na pierwszy dzien wydarzenia",
     features: [
@@ -22,7 +22,7 @@ const tiers = [
   {
     name: "Bilet 2 dniowy",
     id: "2",
-    href: "#",
+    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "2 700 PLN" },
     description: "Bilet wstepu na dwa dni wydarzenia",
     features: [
@@ -36,7 +36,7 @@ const tiers = [
   {
     name: "Bilet 3 dniowy",
     id: "3",
-    href: "#",
+    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "3 600 PLN" },
     description: "Bilet wstepu na cale wydarzeniae",
     features: [
@@ -55,7 +55,7 @@ function classNames(...classes) {
 }
 
 export default function Pricing() {
-  const [frequency, setFrequency] = useState(frequencies[0]);
+  const [frequency] = useState(frequencies[0]);
   return (
     <div className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div
