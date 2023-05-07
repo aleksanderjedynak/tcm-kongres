@@ -18,6 +18,8 @@ const features = [
   },
 ];
 
+//todo: poprawa gradientu
+
 export default function Organizers() {
   return (
     <div className="bg-white">
@@ -46,6 +48,8 @@ export default function Organizers() {
                 </dt>
                 <a
                   href={feature.description}
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-semibold text-indigo-600 hover:text-indigo-500"
                 >
                   {feature.description}
