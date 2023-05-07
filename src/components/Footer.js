@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const navigation = {
   main: [
-    { name: "Regulamin TCM Kongres", href: "#" },
-    { name: "Polityka prywatnosci", href: "#" },
+    { name: "Regulamin TCM Kongres", href: "/regulations" },
+    { name: "Polityka prywatnosci", href: "/privacy-policy" },
   ],
   social: [
     {
@@ -65,12 +67,12 @@ export default function Footer() {
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6 text-center">
-              <a
-                href={item.href}
+              <Link
+                to={item.href}
                 className="text-sm leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
-              </a>
+              </Link>
             </div>
           ))}
         </nav>

@@ -1,5 +1,6 @@
 import logo from "../image/logo.png";
 import hero from "../image/krakow-miasto.jpg";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="bg-white">
@@ -10,14 +11,14 @@ export default function Header() {
               className="flex items-center justify-between lg:justify-start"
               aria-label="Global"
             >
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link to="/tcm-kongres" className="-m-1.5 p-1.5">
                 <span className="sr-only">TCM Kongres</span>
                 <img
                   alt="Polskie Towarzystwo Tradycyjnej Medycyny Chińskiej"
                   className="h-24 w-auto"
                   src={logo}
                 />
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
