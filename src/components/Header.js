@@ -1,9 +1,6 @@
-import { useState } from "react";
 import logo from "../image/logo.png";
 import hero from "../image/krakow-miasto.jpg";
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
@@ -69,7 +66,7 @@ export default function Header() {
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
-                    href="#"
+                    href="https://app.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Kup swoj bilet <span aria-hidden="true">→</span>
