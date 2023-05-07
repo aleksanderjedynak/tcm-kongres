@@ -57,7 +57,7 @@ export default function Faqs() {
             Masz jakieś pytanie lub chcesz dowiedziec sie czegos wieczej? Napisz
             do nas ma adres{" "}
             <a
-              href="#"
+              href="mailto:tcmkongres.kontakt@gmail.com"
               className="font-semibold text-indigo-600 hover:text-indigo-500"
             >
               tcmkongres.kontakt@gmail.com

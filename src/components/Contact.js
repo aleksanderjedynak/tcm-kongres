@@ -35,7 +35,7 @@ export default function Contact() {
             </h3>
             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
               <a
-                href="#"
+                href="mailto:tcmkongres.kontakt@gmail.com"
                 className="font-semibold text-indigo-600 hover:text-indigo-500"
               >
                 tcmkongres.kontakt@gmail.com
