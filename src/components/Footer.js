@@ -4,6 +4,7 @@ const navigation = {
   main: [
     { name: "Regulamin TCM Kongres", href: "/regulations" },
     { name: "Polityka prywatnosci", href: "/privacy-policy" },
+    { name: "Pliki do pobrania", href: "/download" },
   ],
   social: [
     {
