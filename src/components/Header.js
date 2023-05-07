@@ -66,7 +66,7 @@ export default function Header() {
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
-                    href="https://app.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow"
+                    href="https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Kup swoj bilet <span aria-hidden="true">→</span>
