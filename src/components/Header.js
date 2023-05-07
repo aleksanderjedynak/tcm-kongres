@@ -1,21 +1,7 @@
 import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-// import { DiamondIcon } from "@/components/DiamondIcon";
-
-const navigation = [
-  { name: "Start", href: "#" },
-  { name: "O nas", href: "#" },
-  { name: "Wykładowcy", href: "#" },
-  { name: "Edycje", href: "#" },
-  { name: "Vemue", href: "#" },
-  { name: "Kup bilet", href: "#" },
-  { name: "Organizatorzy", href: "#" },
-  { name: "Pytania", href: "#" },
-  { name: "Kontakt", href: "#" },
-  { name: "EN", href: "#" },
-];
-export default function Headerq() {
+import logo from "../image/logo.png";
+import hero from "../image/krakow-miasto.jpg";
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -30,9 +16,9 @@ export default function Headerq() {
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">TCM Kongres</span>
                 <img
-                  alt="Your Company"
+                  alt="Polskie Towarzystwo Tradycyjnej Medycyny Chińskiej"
                   className="h-24 w-auto"
-                  src={"https://tcm-kongres.pl/img/logo.png"}
+                  src={logo}
                 />
               </a>
             </nav>
@@ -58,20 +44,28 @@ export default function Headerq() {
                   TCM KONGRES
                 </h1>
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                  11-13 października 2019
+                  13-15 października 2023
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  To już czwarty Międzynarodowy Kongres Medycyny Chińskiej,
-                  który odbywa się w Krakowie. Organizowany przez Polskie
-                  Towarzystwo Tradycyjnej Medycyny Chińskiej (PTTMC). Celem
-                  Kongresu jest promocja medycyny chińskiej oraz stworzenie
-                  specjalnego miejsca spotkań polskich i międzynarodowych
-                  praktyków medycyny chińskiej. Kongres koncentruje się na
-                  promowaniu klinicznego zastosowania TCM oraz dzieleniu się
-                  bogactwem wiedzy i doświadczenia w profilaktyce i leczeniu.
-                  Jest to świetne miejsce spotkań w celu wymiany wiedzy na temat
-                  tej wspaniałej starożytnej medycyny. Miejsce, w którym można
-                  doładować się mądrością i zainspirować do dalszej pracy.
+                  Zapraszamy na V Międzynarodowy Kongres Medycyny Chińskiej
+                  organizowany przez Polskie Towarzystwo Tradycyjnej Medycyny
+                  Chińskiej (PTTMC) w Krakowie. Po przerwie spowodowanej
+                  pandemią czekamy na Was spragnieni bycia razem, wspólnego
+                  słuchania wykładów naszych wspaniałych nauczycieli, wzajemnej
+                  wymiany doświadczeń, inspiracji oraz wspólnej zabawy na
+                  bankiecie. Celem Kongresu jest stworzenie specjalnego miejsca
+                  spotkań dla terapeutów medycyny chińskiej z różnych stron
+                  Polski i świata, w którym mogą się uczyć od doświadczonych
+                  wykładowców i praktyków Tcm, rozwijać się oraz integrować po
+                  to, by naładować akumulatory, wypełnić wiedzą i jak lepiej
+                  służyć pacjentom w swoich gabinetach. Jesienne barwy,
+                  niezwykłe uliczki Krakowa, spacery nad Wisłą, po Rynku czy
+                  Kazimierzu tworzą przepiękną scenerię tego wydarzenia.
+                  Cieszymy się ogromnie, że niezwykli nauczyciele Tcm przyjadą
+                  specjalnie do Krakowa, żeby dzielić się swoją wiedzą oraz
+                  doświadczeniem, odpowiadać na pytania i być dla nas. Cieszymy
+                  się również, że wszyscy się spotkamy. Czekamy na Was w
+                  Krakowie!!!
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
@@ -88,8 +82,8 @@ export default function Headerq() {
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src={"https://tcm-kongres.pl/img/intro-bg2.jpg"}
-            alt=""
+            src={hero}
+            alt="Kraków"
           />
         </div>
       </div>
