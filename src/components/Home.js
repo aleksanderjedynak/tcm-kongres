@@ -19,8 +19,8 @@ export default function Home() {
         <Schedule></Schedule>
         <Hotel></Hotel>
         <Pricing></Pricing>
-        <Organizers></Organizers>
         <Faqs></Faqs>
+        <Organizers></Organizers>
         <Contact></Contact>
       </main>
       <Footer></Footer>
