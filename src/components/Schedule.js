@@ -297,6 +297,9 @@ export function Schedule() {
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Program Kongresu
           </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
+            Tutaj jakis opis, co tutaj chcemy zapisać?
+          </p>
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
