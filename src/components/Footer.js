@@ -63,14 +63,14 @@ export default function Footer() {
     <footer className="bg-gray-900" aria-labelledby="footer-heading">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav
-          className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6 text-center">
               <Link
                 to={item.href}
-                className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                className="text-2xl leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
               </Link>
