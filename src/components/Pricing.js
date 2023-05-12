@@ -24,26 +24,25 @@ const tiers = [
     id: "2",
     href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "2 700 PLN" },
-    description: "Bilet wstepu na dwa dni wydarzenia",
+    description: "Bilet wstepu na cale wydarzeniae",
     features: [
-      "Dostęp do wszystkich wykładów przez 2 dni",
-      "Dostęp do warsztatów i paneli dyskusyjnych przez 2 dni",
+      "Dostęp do wszystkich wykładów przez 3 dni",
+      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
       "Możliwość uczestnictwa w sesjach Q&A",
       "10% zniżki",
     ],
     mostPopular: true,
   },
   {
-    name: "Bilet 3 dniowy + impreza",
+    name: "Bilet 3 dniowy + bankiet",
     id: "3",
     href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "3 600 PLN" },
-    description: "Bilet wstepu na cale wydarzeniae",
+    description: "Bilet wstepu na cale wydarzeniae oraz bankiet",
     features: [
-      "Dostęp do wszystkich wykładów przez 2 dni",
-      "Dostęp do warsztatów i paneli dyskusyjnych przez 2 dni",
+      "Dostęp do wszystkich wykładów przez 3 dni",
+      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
       "Możliwość uczestnictwa w sesjach Q&A",
-      "20% zniżki",
       "Zaproszenie na ekskluzywne spotkanie z ekspertami",
     ],
     mostPopular: false,
@@ -77,13 +76,7 @@ export default function Pricing() {
           </h2>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-          Nie przegap wyjątkowej okazji, aby zgłębić tajemnice medycyny
-          chińskiej podczas naszego trzydniowego wydarzenia w Krakowie! Odkryj
-          niezwykłe metody leczenia oraz praktyki zdrowotne stosowane od wieków,
-          które pomogą wzmocnić Twoje zdrowie i poprawić jakość życia. Kup bilet
-          już dziś i dołącz do grona entuzjastów medycyny chińskiej, ucz się od
-          ekspertów, nawiąż nowe kontakty i przeżyj niezapomniane chwile w
-          otoczeniu naukowców, terapeutów i pasjonatów z całego świata!
+          Tutaj jakis opis, co tutaj chcemy zapisać?
         </p>
         <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {tiers.map((tier) => (
