@@ -53,8 +53,9 @@ export default function PrivacyPolicy() {
               <span>
                 <strong className="font-semibold text-gray-900">2.</strong>{" "}
                 Użytkownikiem Serwisu jest każda osoba fizyczna odwiedzająca
-                stronę internetową www. …………..lub korzystająca z jednej lub
-                kilku usług i/lub produktów oferowanych przez Administratora.
+                stronę internetową www.tcmkongres.pl lub korzystająca z jednej
+                lub kilku usług i/lub produktów oferowanych przez
+                Administratora.
               </span>
             </li>
             <li className="flex gap-x-3">
