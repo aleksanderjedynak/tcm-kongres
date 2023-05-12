@@ -36,13 +36,13 @@ export default function Header() {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+            <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-40 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   TCM KONGRES
                 </h1>
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                  13-15 października 2023
+                  Kraków 13-15 października 2023
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Zapraszamy na V Międzynarodowy Kongres Medycyny Chińskiej
