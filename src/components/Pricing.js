@@ -20,7 +20,7 @@ const tiers = [
     mostPopular: false,
   },
   {
-    name: "Bilet 2 dniowy",
+    name: "Bilet 3 dniowy",
     id: "2",
     href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "2 700 PLN" },
@@ -34,7 +34,7 @@ const tiers = [
     mostPopular: true,
   },
   {
-    name: "Bilet 3 dniowy",
+    name: "Bilet 3 dniowy + impreza",
     id: "3",
     href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
     price: { monthly: "3 600 PLN" },
