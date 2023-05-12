@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tcm-kongres/static/css/main.6be0bdef.css",
-    "main.js": "/tcm-kongres/static/js/main.336c4885.js",
+    "main.css": "/tcm-kongres/static/css/main.c6e60b0d.css",
+    "main.js": "/tcm-kongres/static/js/main.b2ca2fe2.js",
     "static/js/787.a532df55.chunk.js": "/tcm-kongres/static/js/787.a532df55.chunk.js",
     "static/media/krakow-miasto.jpg": "/tcm-kongres/static/media/krakow-miasto.a798f0a08f21ae762696.jpg",
     "static/media/logo.png": "/tcm-kongres/static/media/logo.f138274aef65dd41021d.png",
     "index.html": "/tcm-kongres/index.html",
-    "main.6be0bdef.css.map": "/tcm-kongres/static/css/main.6be0bdef.css.map",
-    "main.336c4885.js.map": "/tcm-kongres/static/js/main.336c4885.js.map",
+    "main.c6e60b0d.css.map": "/tcm-kongres/static/css/main.c6e60b0d.css.map",
+    "main.b2ca2fe2.js.map": "/tcm-kongres/static/js/main.b2ca2fe2.js.map",
     "787.a532df55.chunk.js.map": "/tcm-kongres/static/js/787.a532df55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6be0bdef.css",
-    "static/js/main.336c4885.js"
+    "static/css/main.c6e60b0d.css",
+    "static/js/main.b2ca2fe2.js"
   ]
 }
