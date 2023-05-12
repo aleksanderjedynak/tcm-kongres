@@ -30,7 +30,9 @@ export default function Organizers() {
                     <dd>
                       <a
                         className="font-semibold text-indigo-600"
-                        href="www.pttmc.org"
+                        href="https://www.pttmc.org"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         www.pttmc.org
                       </a>
@@ -52,7 +54,9 @@ export default function Organizers() {
                     <dd>
                       <a
                         className="font-semibold text-indigo-600"
-                        href="www.medycyna-chinska.com"
+                        href="https://www.medycyna-chinska.com"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         www.medycyna-chinska.com
                       </a>
@@ -74,7 +78,9 @@ export default function Organizers() {
                     <dd>
                       <a
                         className="font-semibold text-indigo-600"
-                        href="www.medycynachinska.org"
+                        href="https://www.medycynachinska.org"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         www.medycynachinska.org
                       </a>
@@ -96,7 +102,9 @@ export default function Organizers() {
                     <dd>
                       <a
                         className="font-semibold text-indigo-600"
-                        href="www.tcm.ac"
+                        href="https://www.tcm.ac"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         www.tcm.ac
                       </a>
