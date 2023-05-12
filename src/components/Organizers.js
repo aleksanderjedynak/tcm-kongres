@@ -24,7 +24,7 @@ export default function Organizers() {
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   Polskie Towarzystwo Tradycyjnej Medycyny Chińskiej
                 </h3>
-                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <dl className="mt-3 space-y-1 text leading-6 text-gray-600">
                   <div>
                     <dt className="sr-only">Strona www</dt>
                     <dd>
@@ -46,7 +46,7 @@ export default function Organizers() {
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   Instytut Medycyny Chińskiej i Profilaktyki Zdrowia
                 </h3>
-                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <dl className="mt-3 space-y-1 text leading-6 text-gray-600">
                   <div>
                     <dt className="sr-only">Strona www</dt>
                     <dd>
@@ -68,7 +68,7 @@ export default function Organizers() {
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   Centrum Medycyny Chińskiej, Kraków
                 </h3>
-                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <dl className="mt-3 space-y-1 text leading-6 text-gray-600">
                   <div>
                     <dt className="sr-only">Strona www</dt>
                     <dd>
@@ -90,7 +90,7 @@ export default function Organizers() {
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   TCM Academy of Chinese Medicine
                 </h3>
-                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <dl className="mt-3 space-y-1 text leading-6 text-gray-600">
                   <div>
                     <dt className="sr-only">Strona www</dt>
                     <dd>
