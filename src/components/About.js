@@ -1,16 +1,12 @@
-const stats = [
-  {
-    id: 1,
-    name: "Pobierz Biuletyn PDF",
-    value: "BIULETYN",
-  },
-  { id: 2, name: "Zobacz regulamin", value: "REGILAMIN" },
-];
+// const stats = [
+//   {
+//     id: 1,
+//     name: "Pobierz Biuletyn PDF",
+//     value: "BIULETYN",
+//   },
+//   { id: 2, name: "Zobacz regulamin", value: "REGILAMIN" },
+// ];
 
-//todo: brakuje regulaminu
-//todo: brakuje BIULETYN
-
-//todo: poprawic sytylowanie aby tyly to linki
 export default function About() {
   return (
     <div className="relative bg-white">
@@ -47,21 +43,21 @@ export default function About() {
               YangSheng Techniki akupunktury i moksybucji. Leczenie chorób
               przewlekłych i ostrych ziołami chińskimi.
             </p>
-            <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
-              {stats.map((stat) => (
-                <div
-                  key={stat.id}
-                  className="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6"
-                >
-                  <dt className="text-sm leading-6 text-gray-600">
-                    {stat.name}
-                  </dt>
-                  <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900">
-                    {stat.value}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            {/*<dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">*/}
+            {/*  {stats.map((stat) => (*/}
+            {/*    <div*/}
+            {/*      key={stat.id}*/}
+            {/*      className="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6"*/}
+            {/*    >*/}
+            {/*      <dt className="text-sm leading-6 text-gray-600">*/}
+            {/*        {stat.name}*/}
+            {/*      </dt>*/}
+            {/*      <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900">*/}
+            {/*        {stat.value}*/}
+            {/*      </dd>*/}
+            {/*    </div>*/}
+            {/*  ))}*/}
+            {/*</dl>*/}
           </div>
         </div>
       </div>
